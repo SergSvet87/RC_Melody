@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="html, css, javascript, build, apartment, home, flat, reserve, to undermine, svitlychnyi, serhii"
+    />
+    <meta
+      name="description"
+      content="Це сайт продажу квартир від найкращого забудовника ЖК Мелодія."
+    />
+    <meta name="author" content="Світличний Сергій" />
+    <title>ЖК Мелодія</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="js/flats.min.js" defer></script>
+    <script src="js/floor.min.js" defer></script>
+    <script src="js/mobile-menu.min.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="home">
+        <div class="container">
+          <!-- Header -->
+          <header class="home__header header">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="img/icons/logo.svg" alt="Logo" />
+              </a>
+            </div>
+            <nav class="header__top-menu menu-header">
+              <ul class="menu-header__list">
+                <li class="menu-header__item">
+                  <a href="#">Подобрать квартиру</a>
+                </li>
+                <li class="menu-header__item">
+                  <a href="#">Забронировать квартиру</a>
+                </li>
+                <li class="menu-header__item">
+                  <a href="#">Ход строительства</a>
+                </li>
+                <li class="menu-header__item">
+                  <a href="#">Проектная декларация</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- ./nav -->
+            <div class="header__contacts">
+              <span>Закажите звонок:</span>
+              <a href="tel:+388431234567">+38 (843) 123-45-67</a>
+            </div>
+          </header>
+          <!-- ./header -->
+
+          <!-- Mobile menu -->
+          <header class="header__menu-mobile mobile-menu">
+            <div class="mobile-menu__inner">
+              <div class="header__logo">
+                <a href="index.html">
+                  <img src="img/icons/logo.svg" alt="Logo" />
+                </a>
+              </div>
+              <!-- ./logo -->
+              <a class="mobile-menu__burger"
+                ><span class="mobile-menu__line"></span
+              ></a>
+              <div class="header__contacts">
+                <span>Закажите звонок:</span>
+                <a href="tel:+388431234567">+38 (843) 123-45-67</a>
+              </div>
+            </div>
+
+            <nav class="mobile-menu__nav">
+              <!-- List -->
+              <ul class="mobile-menu__list list-mobile">
+                <li class="list-mobile__item">
+                  <a class="list-mobile__link" href="#"
+                    ><i class="material-icons">hail</i>Подобрать квартиру</a
+                  >
+                </li>
+                <li class="list-mobile__item">
+                  <a class="list-mobile__link" href="#"
+                    ><i class="material-icons">star_half</i>Забронировать
+                    квартиру</a
+                  >
+                </li>
+                <li class="list-mobile__item">
+                  <a class="list-mobile__link" href="#"
+                    ><i class="material-icons">music_note</i>Ход
+                    строительства</a
+                  >
+                </li>
+                <li class="list-mobile__item">
+                  <a class="list-mobile__link" href="#"
+                    ><i class="material-icons">flight_land</i>Проектная
+                    декларация</a
+                  >
+                </li>
+                <li class="list-mobile__item"><div class="divider"></div></li>
+                <li class="list-mobile__item mobile-menu__close">
+                  <a class="list-mobile__link" href="#"
+                    ><i class="material-icons">cancel</i>Закрыть</a
+                  >
+                </li>
+              </ul>
+              <!-- ./mobile-menu__list -->
+            </nav>
+            <!-- /.mobile-menu__nav -->
+
+            <div class="mobile-menu__overlay"></div>
+            <!-- /.mobile-menu__overlay -->
+          </header>
+          <!-- ./mobile-menu -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Main -->
+      <main class="page">
+        <section class="main" id="main">
+          <div class="container main__container">
+            <div class="main__image img-main">
+              <svg
+                class="img-main__svg"
+                width="734"
+                height="640"
+                viewBox="0 0 734 640"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="734" height="640" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_86"
+                      transform="translate(-0.00408719) scale(0.0013624 0.0015625)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_86"
+                    width="740"
+                    height="640"
+                    xlink:href="img/main/home1.jpg"
+                  />
+                </defs>
+                <path
+                  data-floor="02"
+                  d="M222 528.101L442.8 537.647L512 521.3V547.193L443.5 570.7L222 557.574V528.101Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="03"
+                  d="M223 532.061V501L443.3 505.1L513 501V525.848L443.7 542L223 532.061Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="04"
+                  d="M223 506.667V475H444H513V504.133L445 513L223 506.667Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="05"
+                  d="M223 484V452.031L444.3 447.3L512 455.868V484H444"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="06"
+                  d="M223 457.257V424.817L444.5 420.7L513 434.424V461L444 452.641L223 457.257Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="07"
+                  d="M222 429.501V401.521L443 387L514 414.153V439.3L443 424.779L222 429.501Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="08"
+                  d="M222 407.702V378.645L444.2 359.7L514 392.941V417L443.7 391.779L222 407.702Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="09"
+                  d="M222 382.325V353.834L444.5 330.7L514 372.41V396L442 363.293L222 382.325Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="10"
+                  d="M222 355.93V329.008L445 301.3L514 350.658V375L444.7 332.373L222 355.93Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="11"
+                  d="M222 330.88V304.202L444.5 272.3L514 328.99V352L443.7 304.98L222 330.88Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="12"
+                  d="M221 306.772V280.342L443.3 244L514 309.305V331L444 275.166L221 306.772Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="13"
+                  d="M222 281.553V255.294L443.2 217L513 287.024V310L444.3 246.213L222 281.553Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="14"
+                  d="M222 257.538V230.341L444.3 189L513 265.48V288L444 218.374L222 257.538Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="15"
+                  d="M222 231.404V204.438L442.8 157.3L513 242.514V267L444 187.934L222 231.404Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="16"
+                  d="M223 207.407V180.556L443 129L513 220.296V245L442.3 159.826L223 207.407Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="17"
+                  d="M222 182.357V155.617L441.8 100L513 198.721V223L443.3 130.697L222 182.357Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-floor="18"
+                  d="M222 157.392V129.697L444 69.3L513 177.631V200L443.7 102.321L222 157.392Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+              </svg>
+            </div>
+            <!-- /.main__image -->
+            <div class="main__info info-main">
+              <h2 class="info-main__title title-h1">Выберите желаемый этаж</h2>
+              <!-- /.info-main__title -->
+
+              <!-- Arrows -->
+              <div class="info-main__arrows arrows-info">
+                <button class="arrows-info__arrow arrow-up" type="button">
+                  <img src="img/icons/arrow.svg" alt="arrow up" />
+                </button>
+                <!-- /.info-main__arrow -->
+                <span class="arrows-info__floor counter">07</span>
+                <button type="button" class="arrows-info__arrow arrow-down">
+                  <img src="img/icons/arrow.svg" alt="arrow down" />
+                </button>
+                <!-- /.info-main__arrow -->
+              </div>
+              <!-- /.info-main__arrows -->
+
+              <button class="info-main__btn" type="button">
+                Смотреть квартиры на этаже
+              </button>
+              <!-- /.info-main__btn -->
+            </div>
+            <!-- /.main__info info-main -->
+          </div>
+        </section>
+        <!-- ./main -->
+
+        <section class="modal">
+          <div class="modal__dialog">
+            <button class="modal__close-btn">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M2 2L26 26" stroke="#3596F5" stroke-width="3" />
+                <path d="M26 2L2 26" stroke="#3596F5" stroke-width="3" />
+              </svg>
+            </button>
+            <!-- /.modal__close-btn -->
+
+            <div class="modal__image">
+              <h3 class="modal__title">Этаж <span class="counter">07</span></h3>
+              <!-- /.modal__title -->
+
+              <svg
+                class="flats"
+                width="433"
+                height="408"
+                viewBox="0 0 433 408"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <!-- <rect width="433" height="408" fill="url(#pattern0)" /> -->
+                <image
+                  id="image0_24_7"
+                  width="433"
+                  height="408"
+                  xlink:href="img/main/Floor.png"
+                />
+                <path
+                  data-flat="2"
+                  d="M125 117H45V171H48V199H166V145H125V117Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                />
+                <path
+                  data-flat="3"
+                  d="M119 274H45V227H48V199H166V252H119V274Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="4"
+                  d="M138 376H93V393H28V328H45V274H119V252H166V275V309H138V376Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="7"
+                  d="M295 376H339V393H405V328H388V268H314V252H267V275V309H295V376Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="8"
+                  d="M314 252V268H388V263H387V205H368.154V200H267V252H314Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="6"
+                  d="M245 264H217V395H260V376H295V309H267V275H245V264Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="5"
+                  d="M188 264H217V395H173V376H138V309H166V275H188V264Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="9"
+                  d="M314 141.5H388V146H387L387 205H368.154V200H267V149H314V141.5Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="0"
+                  d="M248 33H313.5H340V16H405V81H388V141.5H368.154H314V149H267V132H247V65H246V33H248Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  data-flat="1"
+                  d="M185 33H118H93V16H28V81H45V117H61.8798H125V145H163V142V131H185V33Z"
+                  fill="#3595F6"
+                  fill-opacity="0.75"
+                  shape-rendering="crispEdges"
+                />
+              </svg>
+              <!-- /.flats -->
+            </div>
+            <!-- /.modal__image -->
+
+            <div class="modal__info">
+              <h3 class="modal__title">Выберите квартиру</h3>
+              <!-- /.modal__title -->
+
+              <ul class="modal__list flat-list">
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>0</span
+                    >, 2 комн. 64,5 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>1</span
+                    >, 1 комн. 38,9 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>2</span
+                    >, 1 комн. 35,9 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>3</span
+                    >, 2 комн. 56 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>4</span
+                    >, 1 комн. 35,8 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>5</span
+                    >, 1 комн. 35,8 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>6</span
+                    >, 2 комн. 58,4 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>7</span
+                    >, 1 комн. 32,3 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">7</span>8</span
+                    >, 1 комн. 29,9 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+                <li class="flat-list__item">
+                  <a href="#" class="flat-list__link">
+                    кв.
+                    <span class="flat-list__number"
+                      ><span class="counter">8</span>9</span
+                    >, 3 комн. 75,2 кв. м.
+                  </a>
+                  <!-- /.modal__link -->
+                </li>
+                <!-- /.modal__item -->
+              </ul>
+              <!-- /.modal__list -->
+
+              <div class="modal__alert">
+                Квартиры, отмеченные серым, <br />
+                уже выкуплены
+              </div>
+              <!-- /.modal__alert -->
+            </div>
+            <!-- /.modal__info -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.modal -->
+      </main>
+      <!-- /.main page -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container footer__container">
+          <!-- Social -->
+          <div class="footer__social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BhcBiHBFlT5yVayJn2EHCdQ%3D%3D"
+                  class="social-link"
+                >
+                  <img
+                    src="img/icons/socials/linkedin.svg"
+                    alt="linkedin"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </li>
+              <!-- ./linkedin -->
+
+              <li class="social-item">
+                <a
+                  href="mailto:svitlychnyi1905@gmail.com"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <img
+                    src="img/icons/socials/gmail.svg"
+                    alt="gmail"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </li>
+              <!-- ./gmail -->
+
+              <li class="social-item">
+                <a
+                  href="https://github.com/SergSvet87"
+                  target="_blank"
+                  class="social-link"
+                  ><img
+                    src="img/icons/socials/github.svg"
+                    alt="github"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <!-- ./github -->
+
+              <li class="social-item">
+                <a
+                  href="https://stackoverflow.com/users/20042762/serhii-svitlychnyi"
+                  target="_blank"
+                  class="social-link"
+                  ><img
+                    src="img/icons/socials/stackoverflow.svg"
+                    alt="stackoverflow"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <!-- ./stackoverflow -->
+
+              <li class="social-item">
+                <a
+                  href="https://t.me/Serg_svet"
+                  target="_blank"
+                  class="social-link"
+                  ><img
+                    src="img/icons/socials/telegram.svg"
+                    alt="telegram"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <!-- ./telegram -->
+
+              <li class="social-item">
+                <a
+                  href="https://www.facebook.com/s.svetlichnyy/"
+                  target="_blank"
+                  class="social-link"
+                  ><img
+                    src="img/icons/socials/facebook.svg"
+                    alt="facebook"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <!-- ./facebook -->
+
+              <li class="social-item">
+                <a
+                  href="Skype:https://join.skype.com/invite/CBnR8fF6vKfj"
+                  target="_blank"
+                  class="social-link"
+                  ><img
+                    src="img/icons/socials/Skype.svg"
+                    alt="Skype"
+                    class="social-logo"
+                    width="30"
+                    height="30"
+                /></a>
+              </li>
+              <!-- ./skype -->
+            </ul>
+          </div>
+          <!-- ./social -->
+
+          <!-- Animation -->
+          <div class="footer__animation animation">
+            <a
+              href="https://sergsvet87.github.io/My_RESUME/"
+              class="animation__link"
+              target="_blank"
+            >
+              <svg
+                class="animation__circle"
+                width="100"
+                height="100"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 54 54"
+                style="enable-background: new 0 0 54 54"
+                xml:space="preserve"
+                fill="#d7d7d7"
+              >
+                <g>
+                  <path
+                    id="circleShape"
+                    class="circle__shape"
+                    d="M27,0C12.112,0,0,12.112,0,27s12.112,27,27,27s27-12.112,27-27S41.888,0,27,0z M27,52C13.215,52,2,40.785,2,27
+                  S13.215,2,27,2s25,11.215,25,25S40.785,52,27,52z"
+                    fill="none"
+                  />
+                  <!---->
+                  <path
+                    class="animation__arrow"
+                    transform="scale(0.6)"
+                    d="M32.413,14.293c-0.391-0.391-1.023-0.391-1.414,0L19.501,25.791c-0.667,0.667-0.667,1.751,0,2.418l11.498,11.498
+                  C31.194,39.902,31.45,40,31.706,40s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L21.12,27l11.293-11.293
+                  C32.804,15.316,32.804,14.684,32.413,14.293z"
+                    fill="#fff"
+                  />
+                </g>
+                <text class="animation__text">
+                  <textPath href="#circleShape">Сергій Світличний</textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+          <!-- /.footer__animation -->
+
+          <div class="footer__copyright">
+            &copy; Copyright
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | This template is made with
+            <i class="material-icons">favorite</i> in
+            <address class="footer__address">
+              <a
+                href="https://sergsvet87.github.io/My_Portfolio/"
+                target="_blank"
+              >
+                Ukraine, Kharkiv</a
+              >
+            </address>
+          </div>
+          <!-- ./footer-text -->
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- ./footer -->
+    </div>
+    <!--end wrapper-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
